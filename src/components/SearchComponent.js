@@ -32,7 +32,6 @@ export const SearchComponent = ({setWeatherData}) => {
                     alert('Unknown error occurred. Please try again later.');
             }
         } else {
-            console.log(err);
             alert('Unknown error occurred. Please try again later.');
         }
     }
